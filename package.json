@@ -1,0 +1,31 @@
+{
+    "name": "node-phantomjs",
+    "description": "Node.js wrapper for PhantomJS.",
+    "version": "0.0.1",
+    "author": {
+        "name": "Sal Gerace",
+        "email": "sgerace@gmail.com"
+    },
+    "keywords": [
+        "phantomjs"
+    ],
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sgerace/node-phantomjs.git"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/sgerace/node-phantomjs/blob/master/LICENSE.txt"
+    }],
+    "dependencies": {
+        "bluebird": "2.2.1"
+    },
+    "devDependencies": {
+        "chai": "1.9.1",
+        "grunt": "0.4.2",
+        "mocha": "^1.20.1"
+    }
+}
